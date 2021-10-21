@@ -243,10 +243,13 @@ body {
 
 
 /*****course*******/
+.course {
+	margin-top: -300px;
+}
 .course-circle {
 	position: relative;	
 	z-index: -1;
-	margin-top: -53px;
+	margin-top: 153px;
 	margin-left: -38px;
 	width: 353px;
     height: 353px;
@@ -276,7 +279,7 @@ body {
 	padding-bottom: 16px;
 }
 .course-text {
-	margin: 206px auto 0 auto;
+	margin: 406px auto 0 auto;
 	max-width: 488px;
 	font-size: 17px;
 	color: #333333;
@@ -299,6 +302,9 @@ body {
 
 
 /*****author*******/
+.author {
+	margin-top: -434px;
+}
 .author-text-lablel {
 	margin: 0 0 0 auto;
 	text-align: end;
@@ -310,6 +316,7 @@ body {
 .author-text-title {
 	font-size: 36px;
 	color: #333333;
+	margin-top: 434px;
 	margin-bottom: 49px;
 	text-align: end;
 }
@@ -317,7 +324,7 @@ body {
 	position: relative;
 	z-index: -1;
 	margin-left: 170px;
-	margin-top: -370px;
+	
 	width: 587px;
     height: 581px;
     background-image: url(../images/leaflet.png);
@@ -903,14 +910,17 @@ body {
 .home-laptop > img {
 	margin-top: 30px;
 }
+.course {
+	margin-top: -100px;
+}
 .course-title {
-	margin-top: -250px;
+	margin-top: -260px;
 }
 .course-circle {
-	margin-top: -153px;
+	margin-top: 0px;
 }
 .course-blot {
-    margin-top: -330px;
+    margin-top: -320px;
 }
 .form-log {
 	text-align: end;
@@ -940,7 +950,7 @@ body {
 }
 .course-text {
 	text-align: right;
-	margin: 120px 0 0 auto;
+	margin: 190px 0 0 auto;
 	max-width: 488px;
 	font-size: 17px;
 	color: #333333;
@@ -960,12 +970,15 @@ body {
 .info-blot {
     margin-top: -980px;
 }
+.author {
+	margin-top: -334px;
+}
 .author-circle {
 	margin-left: 570px;
-	margin-top: -430px;
+	margin-top: -174px;
 }
-.author-title {
-	margin-top: -474px;
+.author-text-title {
+	margin-top: 34px;
 }
 .recording-text {
 	margin-top: 0;
@@ -1041,7 +1054,7 @@ body {
 	margin-top: -240px;
 }
 .course-text {
-	margin-top: 220px;
+	margin-top: 120px;
 }
 .course-circle {
 	margin-top: -133px;
@@ -1096,8 +1109,11 @@ body {
 	width: 100%;
 	margin-left: 20px;
 }
+.author {
+	margin-top: -334px;
+}
 .author-title {
-	margin-top: -504px;
+	margin-top: -404px;
 }
 .quotes {
 	display: none;
@@ -1108,11 +1124,14 @@ body {
 .home-linetext {
 	margin-bottom: 20px;
 }
+.course {
+	margin-top: -200px;
+}
 .course-text {
 	margin-top: -670px;
 }
 .course-circle {
-	margin-top: -213px;
+	margin-top: 0px;
 }
 .course-blot {
 	margin-top: -340px;
@@ -1203,11 +1222,11 @@ body {
 	margin-top: 5px;
 }
 .course-circle {
-	margin-top: -205px;
+	margin-top: 0px;
 	margin-left: -23px;
 }
 .course-blot {
-    margin-top: -355px;
+    margin-top: -155px;
 }
 .main-part2 {
     padding: 0 10px;
@@ -1216,7 +1235,7 @@ body {
 	margin-top: -50px;
 }
 .course-title {
-    margin-top: -210px;
+    margin-top: 0px;
     margin-left: 0;
 }
 .course-circle {
@@ -1229,8 +1248,11 @@ body {
     margin: -880px auto 0 auto;
     text-align: start;
 }
+.author {
+	margin-top: -490px;
+}
 .author-title {
-    margin-top: -660px;
+    margin-top: -490px;
 }
 .author-img img {
 	margin-bottom: 140px;
@@ -1245,6 +1267,9 @@ body {
 }
 .questions-margin {
 	margin-top: 36px;
+}
+.questions-part2 {
+	padding: 0 5px;
 }
 .footer-link-pad {
 	max-width: 155px;
@@ -1267,5 +1292,10 @@ body {
 }
 .footer-part2 {
     margin-top: 102px;
+}
+}
+@media (max-width: 425.98px) {
+.author-title {
+    margin-top: -420px;
 }
 }
