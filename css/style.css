@@ -108,6 +108,10 @@ body {
 	background: #FFC960;
 	color: #333333;
 }
+.active-log input {
+	background: #FFC960;
+	color: #333333;
+}
 
 /************header-down*************/
 .header-down {
