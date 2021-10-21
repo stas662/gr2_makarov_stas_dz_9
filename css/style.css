@@ -385,7 +385,6 @@ body {
 	background-image: url('../images/redline.png');
 	background-position: 0 11px;
 	background-repeat: no-repeat;
-	mix-blend-mode: multiply;
 }
 .info-download a {
 	display: block;
