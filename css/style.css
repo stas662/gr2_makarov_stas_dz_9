@@ -953,6 +953,7 @@ body {
 }
 .info-list li {
 	filter: brightness(0);
+	color: #333333;
 }
 .info-blot {
     margin-top: -980px;
