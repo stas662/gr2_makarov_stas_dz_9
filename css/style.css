@@ -956,8 +956,7 @@ body {
 	margin-right: 0;
 }
 .info-list li {
-	filter: brightness(0);
-	color: #333333;
+	background-image: url('../images/blackline.png');
 }
 .info-blot {
     margin-top: -980px;
